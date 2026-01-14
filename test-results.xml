@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.552" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-01-14T12:51:12" tests="0" file="cypress/e2e/login.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login" timestamp="2026-01-14T12:51:12" tests="3" time="15.551" failures="0">
+    <testcase name="Login Realizar login com sucesso" time="3.965" classname="Realizar login com sucesso">
+    </testcase>
+    <testcase name="Login Realizar login com Falha no Email" time="2.053" classname="Realizar login com Falha no Email">
+    </testcase>
+    <testcase name="Login Realizar login com Falha na Senha" time="1.801" classname="Realizar login com Falha na Senha">
+    </testcase>
+  </testsuite>
+</testsuites>

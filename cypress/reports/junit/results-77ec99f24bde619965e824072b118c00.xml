@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.604" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2026-01-14T16:54:40" tests="1" file="cypress/e2e/login.cy.js" time="0.602" failures="1">
+    <testcase name="An uncaught error was detected outside of a test" time="0.000" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; process is not defined
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure." type="ReferenceError"><![CDATA[ReferenceError: The following error originated from your test code, not from Cypress.
+
+  > process is not defined
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+    at ./node_modules/ci-info/index.js (webpack://gerenciador_gastos_cypress/./node_modules/ci-info/index.js:5:0)
+    at __webpack_require__ (webpack://gerenciador_gastos_cypress/webpack/bootstrap:19:0)
+    at ./node_modules/cypress/lib/util.js (webpack://gerenciador_gastos_cypress/./node_modules/cypress/lib/util.js:12:13)
+    at __webpack_require__ (webpack://gerenciador_gastos_cypress/webpack/bootstrap:19:0)
+    at ./node_modules/cypress/index.js (webpack://gerenciador_gastos_cypress/./node_modules/cypress/index.js:6:13)
+    at __webpack_require__ (webpack://gerenciador_gastos_cypress/webpack/bootstrap:19:0)
+    at ./cypress/pages/login/index.js (webpack://gerenciador_gastos_cypress/./cypress/pages/login/index.js:1:0)
+    at __webpack_require__ (webpack://gerenciador_gastos_cypress/webpack/bootstrap:19:0)
+    at eval (webpack://gerenciador_gastos_cypress/./cypress/e2e/login.cy.js:1:0)
+    at eval (http://localhost:36919/__cypress/tests?p=cypress/e2e/login.cy.js:155218:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
